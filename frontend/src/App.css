@@ -38,6 +38,10 @@
   --type-font-weight: 600;
   --type-letter-spacing: 0px;
   --type-line-height: normal;
+  --first-place: rgba(255, 230, 0, 1);
+  --second-place: rgba(0, 133, 255, 1);
+  --third-place: rgba(255, 58, 58, 1);
+  --white: rgba(255, 255, 255, 1);
 }
 
 ::-webkit-scrollbar {

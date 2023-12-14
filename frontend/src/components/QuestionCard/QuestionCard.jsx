@@ -30,10 +30,12 @@ export const QuestionCard = ({ questions }) => {
         }
     };
 
+    console.log(questions);
+
     return (
     <div className="question-container">
         <h2 className="question-title">{currentQuestionData.question}</h2>
-        <AnswerCard options={currentQuestionData.options} correctOption={currentQuestionData.correctOption} initCounts={currentQuestionCount}/>
+        <AnswerCard options={currentQuestionData.options} correctOption={currentQuestionData.answer} initCounts={currentQuestionCount}/>
         <div className="button-group">
             <Button clickHandler={handleNextQuestion} text="NEXT"/>
             <Button clickHandler={handlePrevQuestion} text="PREVIOUS"/>

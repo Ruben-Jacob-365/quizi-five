@@ -1,0 +1,71 @@
+.option-id {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  position: relative;
+}
+
+.option-id .div {
+  background-color: var(--third-place);
+  border-radius: 18.5px;
+  height: 37px;
+  position: relative;
+  width: 37px;
+}
+
+.option-id .ellipse-2 {
+  background-color: var(--third-place);
+  border-radius: 17.5px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 35px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 35px;
+}
+
+.option-id .img {
+  height: 38px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 38px;
+}
+
+.option-id .a {
+  color: var(--third-place);
+  font-family: "Quicksand", Helvetica;
+  font-size: 22px;
+  font-weight: 600;
+  left: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+}
+
+.option-a {
+  background-color: var(--third-place);
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 36px;
+  position: relative;
+  width: 256px;
+}
+
+.team-firenation {
+  color: #ffffff;
+  font-family: "Quicksand-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  width: 231px;
+}

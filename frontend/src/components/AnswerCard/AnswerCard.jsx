@@ -43,8 +43,8 @@ export const AnswerCard = ({options, correctOption, initCounts}) => {
     };
 
     let totalVotes = counts.reduce((acc,votes) => acc+votes, 0);
-    console.log(counts);
-    console.log(totalVotes);
+    console.log("Counts: ",counts);
+    console.log("Total Votes: ",totalVotes);
 
     return (
         <div>

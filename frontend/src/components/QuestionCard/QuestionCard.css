@@ -1,0 +1,105 @@
+.question-card {
+  align-items: center;
+  background: linear-gradient(black, purple);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid;
+  border-color: #9675e2;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 28px;
+  height: 434px;
+  justify-content: center;
+  padding: 8px 40px 20px;
+  position: relative;
+}
+
+.question-card .timer-instance {
+  position: relative !important;
+}
+
+.question-card .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  position: relative;
+}
+
+.question-card .q {
+  color: var(--first-place);
+  font-family: "Quicksand-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.question-card .frame-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 28px;
+  position: relative;
+}
+
+.question-card .frame-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 26px;
+  position: relative;
+}
+
+.question-card .option-id-instance {
+  flex: 0 0 auto !important;
+}
+
+.question-card .option-a {
+  background-color: var(--third-place);
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 36px;
+  position: relative;
+  width: 256px;
+}
+
+.question-card .team-firenation {
+  color: #ffffff;
+  font-family: "Quicksand-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  width: 231px;
+}
+
+.question-card .design-component-instance-node {
+  background-color: var(--second-place) !important;
+}
+
+.question-card .option-id-2 {
+  color: var(--second-place) !important;
+}
+
+.question-card .option-a-2 {
+  background-color: var(--second-place);
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 36px;
+  position: relative;
+  width: 256px;
+}
